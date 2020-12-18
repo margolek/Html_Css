@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Forms</title>
+</head>
+<body>
+	<fieldset>
+		<legend>Password and single text field</legend>
+	<form action="" method="get">
+		<p>Imie oraz nazwisko:
+			<input type="textfield" name="">
+		</p>
+		<p>
+			Password:  
+			<input type="password" name="">
+		</p>
+	</form>
+	</fieldset>
+	<fieldset>
+		<legend>Multirows form</legend>
+			<form action="" method="get">
+				<p>
+					<textarea name="multi" cols="45" rows="10">
+						Fulfil this forms corectly
+					</textarea>
+				</p>
+				
+			</form>
+	</fieldset>
+	<fieldset>
+		<legend>Button option</legend>
+		<input type="radio" name="sport" value="gym">
+			Gym
+		<input type="radio" name="sport" value="football">
+			Football
+		<input type="radio" name="sport" value="Rugby" checked="">
+			Rugby
+	</fieldset>
+	<fieldset>
+		<legend>Field option</legend>
+			<form>
+				<p>
+					<input type="checkbox" name="music" value="youtube">
+					YouTube
+					<input type="checkbox" name="music" value="spotify">
+					Spotify
+					<input type="checkbox" name="music" value="google">
+					Google Podcasts
+				</p>
+			</form>
+	</fieldset>
+	<fieldset>
+		<legend>Rolled list</legend>
+			<form>
+				<p>
+					Makbet was writter by
+					<select name="writer">
+						<option value="szekspit">William Szekspir</option>
+						<option value="stalin">Josef Stalin</option>
+						<option value="rasputin" selected="">Rasputin</option>
+					</select>
+				</p>
+			</form>
+	</fieldset>
+	<fieldset>
+		<legend>List of multiple choice</legend>
+		<form>
+			<p>
+				Choose your favourite subject
+				<select name="subject" multiple="" size="1">
+					<option value="math">Math</option>
+					<option value="pe">Physical Education</option>
+					<option value="geo">Geography</option>
+				</select>
+			</p>
+		</form>
+	</fieldset>
+	<fieldset>
+		<legend>File send field</legend>
+		<form action="" method="post">
+			<input type="file" name="myfiles" value="Select File">
+			<br>
+			<input type="submit" value="Send">
+		</form>
+	</fieldset>
+	<fieldset>
+		<legend>Button with image</legend>
+		<form
+			<p>
+				Send photo
+				<br>
+			<input type="image" src="C:\Users\margo\OneDrive\Dokumenty\GitHub\Html_Css\Forms\send_button.png"
+			width="120">
+			</p>
+		</form>
+	</fieldset>
+	<fieldset>
+		<legend>Add labels</legend>
+		<form>
+			<p>
+				<label>Gym<input type="text" name="activity"></label>
+			</p>
+			<p>
+				<input id="myid" type="radio" name="sex" value="female">
+				<label for="myid">Female</label>
+			</p>
+		</form>
+	</fieldset>
+	<fieldset>
+		<legend>Werify forms field</legend>
+		<form>
+			<p>Name: 
+				<input type="text" name="name" required="">
+			</p>
+		</form>
+	</fieldset>
+	<fieldset>
+		<legend>Date field</legend>
+		<form>
+			<p>Date
+				<input type="date" name="currentdate">
+			</p>
+		</form>
+	</fieldset>
+	<fieldset>
+		<legend>URL and email</legend>
+		<form>
+			<p>Email:
+				<input type="email" name="myemail">
+			</p>
+			<p>URL: 
+				<input type="url" name="siteurl">
+			</p>
+			<p>
+				<input type="submit" name="Send data">
+			</p>
+		</form>
+	</fieldset>
+	<fieldset>
+		<legend>Search file</legend>
+		<input type="search" name="se"
+		placeholder="Clic here to fulfil">
+		<input type="submit" name="send">
+	</fieldset>
+</body>
+</html>
