@@ -1,0 +1,44 @@
+h1{
+	font-family: 'Akaya Telivigala', cursive;
+	font-family: 'Stick', sans-serif;
+	text-align: center;
+}
+
+#mytable{
+	margin: auto;
+}
+
+#data1{
+	background: #EE6C4D;
+	width: 200px;
+	height: 400px;
+	border: 6px solid white;
+}
+
+#data2{
+	background: #F38D68;
+	width: 200px;
+	height: 400px;
+	border: 6px solid white;
+}
+
+#data3{
+	background: #662c91;
+	width: 200px;
+	height: 400px;
+	border: 6px solid white;
+}
+
+#data4{
+	background: #17a398;
+	width: 200px;
+	height: 400px;
+	border: 6px solid white;
+}
+
+#data5{
+	background: #33312e;
+	width: 200px;
+	height: 400px;
+	border: 6px solid white;
+}
