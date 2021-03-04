@@ -1,0 +1,17 @@
+body {
+	background: url(https://cdn.geckoandfly.com/wp-content/uploads/2018/03/ios-11-3840x2160-4k-5k-beach-ocean-13655.jpg);
+}
+
+div{
+	background-color: #819672;
+	border-width: 7 px;
+	border-style: dotted; 
+}
+
+p{
+	color: #407aa1;
+}
+
+span{
+	background-color: #0e3c5c;
+}
